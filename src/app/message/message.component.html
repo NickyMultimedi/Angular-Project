@@ -1,1 +1,14 @@
-<p>message works!</p>
+<ul>
+	<li *ngFor="let message of messages; let index = index"
+		[class.even]="index % 2 !== 0"
+		[class.odd]="index % 2 === 0">
+		<button (click)="remove(message)">X</button>
+		{{ message.hello }}, {{ message.helloWho }}!
+	</li>
+</ul>
+<button (click)="setMessages()">Reset</button>
+<hr />
+<input [(ngModel)]="userName">
+<hr />
+{{ userName }}
+<br />
