@@ -10,7 +10,7 @@ export class MessageService {
   			{hello: "Hello", helloWho: "World"},
   			{hello: "Hello", helloWho: "Mars"},
   			{hello: "Bonjour", helloWho: "Monde"}
-  		]
+  		];
 	}
 
 	getMessages(): Message[] {

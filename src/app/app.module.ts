@@ -9,6 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
 import { MessageComponent } from './message/message.component';
 import { MessageService } from './message/message-service';
+import { Message2Component } from './message2/message2.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { MessageService } from './message/message-service';
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    MessageComponent
+    MessageComponent,
+    Message2Component,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
